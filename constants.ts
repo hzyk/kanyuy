@@ -66,7 +66,7 @@ export const TEAM_MEMBERS = [
         position: 'Ai video Editor',
         bio: 'With a vision to merge data and creativity, Daniel leads the charge in revolutionizing multi-niche marketing.',
         quote: 'Marketing is no longer about the stuff you make, but about the stories you tell.',
-        image: 'Assets/WhatsApp Image 2025-11-03 at 14.29.28_13a3d442.jpg',
+        image: 'Assets/Daniel.jpg',
         linkedin: '#',
     },
     {
@@ -74,15 +74,15 @@ export const TEAM_MEMBERS = [
         position: 'Devops Engineer',
         bio: 'Asonganyi turns market insights into compelling brand narratives that captivate audiences and drive action.',
         quote: 'Good marketing makes the company look smart. Great marketing makes the customer feel smart.',
-        image: 'https://picsum.photos/seed/priya/400/400',
+        image: 'Assets/Asonganyi.jpg',
         linkedin: '#',
     },
     {
         name: 'Aboubakar Abdourazak',
-        position: 'Lead SEO & Analytics',
+        position: 'Ai website Developer',
         bio: 'Aboubakar is the mastermind behind our data-driven approach, ensuring every campaign is optimized for peak performance.',
         quote: 'In God we trust; all others must bring data.',
-        image: 'https://picsum.photos/seed/benjamin/400/400',
+        image: 'Assets/abubakar.jpg',
         linkedin: '#',
     },
     {
@@ -90,7 +90,7 @@ export const TEAM_MEMBERS = [
         position: 'Devops/ cloud engineer',
         bio: 'Amadi crafts viral-worthy content and builds thriving online communities for our diverse portfolio of clients.',
         quote: 'Content is fire; social media is gasoline.',
-        image: 'https://picsum.photos/seed/chloe/400/400',
+        image: 'Assets/dominic.jpg',
         linkedin: '#',
     },
     {
@@ -98,7 +98,7 @@ export const TEAM_MEMBERS = [
         position: 'Video Editor',
         bio: 'With a background in architecture, Peter builds robust marketing foundations for our industrial clients.',
         quote: 'We shape our buildings; thereafter, they shape us.',
-        image: 'https://picsum.photos/seed/marcus/400/400',
+        image: 'Assets/peterMichael.jpg',
         linkedin: '#',
     },
     {
@@ -106,7 +106,7 @@ export const TEAM_MEMBERS = [
         position: 'Graphic Designer',
         bio: 'Adebayo has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
         quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'https://picsum.photos/seed/isabella/400/400',
+        image: 'Assets/ADEbayo.jpg',
         linkedin: '#',
     },
     {
@@ -114,15 +114,15 @@ export const TEAM_MEMBERS = [
         position: ' Frontend Developer',
         bio: 'Abdulsamad has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
         quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'https://picsum.photos/seed/isabella/400/400',
+        image: 'Assets/abdulshamaq.jpg',
         linkedin: '#',
     },
     {
         name: 'Nkwambi Honour ',
-        position: 'Fullstack Developer',
+        position: 'Website Developer',
         bio: 'Nkwambi has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
         quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'https://picsum.photos/seed/isabella/400/400',
+        image: 'Assets/Nkwambi.jpg',
         linkedin: '#',
     }
 ];
