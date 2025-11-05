@@ -1,4 +1,3 @@
-
 import { 
     Building, 
     Home, 
@@ -10,14 +9,11 @@ import {
     Eye, 
     Lightbulb, 
     Users, 
-    ThumbsUp, 
-    Zap,
     Linkedin,
     Instagram,
     Facebook,
     LucideIcon
 } from 'lucide-react';
-// import photo '..';
 
 export const NAV_LINKS = [
   { href: '#/', label: 'Home' },
@@ -60,37 +56,38 @@ export const SERVICES_DATA = [
     { icon: Scissors, title: 'Salon & Spa Marketing', description: 'Attracting more clients to your chairs and tables with beautiful visuals, easy online booking funnels, and loyalty programs.', cta: 'Book More Appointments' },
 ];
 
+// ✅ NOTE: All images should be in "public/Assets/" at your project root.
 export const TEAM_MEMBERS = [
     {
         name: 'Daniel Oni',
-        position: 'Ai video Editor',
+        position: 'AI Video Editor',
         bio: 'With a vision to merge data and creativity, Daniel leads the charge in revolutionizing multi-niche marketing.',
         quote: 'Marketing is no longer about the stuff you make, but about the stories you tell.',
-        image: 'Assets/Daniel.jpg',
+        image: '/Assets/Daniel.jpg',
         linkedin: '#',
     },
     {
         name: 'Asonganyi Rodric',
-        position: 'Devops Engineer',
+        position: 'DevOps Engineer',
         bio: 'Asonganyi turns market insights into compelling brand narratives that captivate audiences and drive action.',
         quote: 'Good marketing makes the company look smart. Great marketing makes the customer feel smart.',
-        image: 'Assets/Asonganyi.jpg',
+        image: '/Assets/Asonganyi.jpg',
         linkedin: '#',
     },
     {
         name: 'Aboubakar Abdourazak',
-        position: 'Ai website Developer',
+        position: 'AI Website Developer',
         bio: 'Aboubakar is the mastermind behind our data-driven approach, ensuring every campaign is optimized for peak performance.',
         quote: 'In God we trust; all others must bring data.',
-        image: 'Assets/abubakar.jpg',
+        image: '/Assets/abubakar.jpg',
         linkedin: '#',
     },
     {
         name: 'Amadi Dominic',
-        position: 'Devops/ cloud engineer',
+        position: 'DevOps / Cloud Engineer',
         bio: 'Amadi crafts viral-worthy content and builds thriving online communities for our diverse portfolio of clients.',
         quote: 'Content is fire; social media is gasoline.',
-        image: 'Assets/dominic.jpg',
+        image: '/Assets/dominic.jpg',
         linkedin: '#',
     },
     {
@@ -98,33 +95,33 @@ export const TEAM_MEMBERS = [
         position: 'Video Editor',
         bio: 'With a background in architecture, Peter builds robust marketing foundations for our industrial clients.',
         quote: 'We shape our buildings; thereafter, they shape us.',
-        image: 'Assets/peterMichael.jpg',
+        image: '/Assets/peterMICHAEL.jpg',
         linkedin: '#',
     },
     {
-        name: 'Adebayo Mary ',
+        name: 'Adebayo Mary',
         position: 'Graphic Designer',
         bio: 'Adebayo has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
         quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'Assets/ADEbayo.jpg',
+        image: '/Assets/ADEbayo.jpg',
         linkedin: '#',
     },
     {
         name: 'Abdulsamad Ishaq',
-        position: ' Frontend Developer',
-        bio: 'Abdulsamad has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
-        quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'Assets/abdulshamaq.jpg',
+        position: 'Frontend Developer',
+        bio: 'Abdulsamad delivers visually appealing and performant user experiences across all platforms.',
+        quote: 'Design is intelligence made visible.',
+        image: '/Assets/abdulshamaq.jpg',
         linkedin: '#',
     },
     {
-        name: 'Nkwambi Honour ',
+        name: 'Nkwambi Honour',
         position: 'Website Developer',
-        bio: 'Nkwambi has an intuitive feel for the beauty industry, creating campaigns that resonate deeply with consumers.',
-        quote: 'Beauty begins the moment you decide to be yourself.',
-        image: 'Assets/Nkwambi.jpg',
+        bio: 'Nkwambi blends creativity and code to craft seamless, high-performing websites for our clients.',
+        quote: 'Code is poetry when written with purpose.',
+        image: '/Assets/Nkwambi.jpg',
         linkedin: '#',
-    }
+    },
 ];
 
 export const SOCIAL_LINKS: { name: string; icon: LucideIcon; href: string }[] = [
