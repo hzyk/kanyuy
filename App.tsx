@@ -8,6 +8,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import Skincare from './pages/skincare';
 import WhatsAppButton from './components/WhatsAppButton';
 import BackToTopButton from './components/BackToTopButton';
 
@@ -23,6 +24,7 @@ const App: React.FC = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/skincare" element={<Skincare/>}/>
           </Routes>
         </main>
         <Footer />

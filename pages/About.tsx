@@ -53,7 +53,7 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <img src="https://picsum.photos/seed/teamwork/800/600" alt="Team collaborating" className="rounded-lg shadow-2xl" loading="lazy" />
+            <img src="https://www.care4it.ch/wp-content/uploads/2021/07/offene-stellen-beim-fuehrenden-it-spezialisten-im-raum-zuerich-care4it-768x771.png" alt="Team collaborating" className="rounded-lg shadow-2xl" loading="lazy" />
           </motion.div>
         </div>
       </AnimatedSection>

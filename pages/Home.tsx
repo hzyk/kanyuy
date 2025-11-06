@@ -25,7 +25,7 @@ const AnimatedCounter = ({ to }: { to: number }) => {
             {to.toLocaleString()}+
         </motion.span>
     );
-};
+};``
 
 const Home: React.FC = () => {
   const containerVariants = {
